@@ -7,7 +7,6 @@ Creating a generalizeable standardized definition of city delinations using urba
 ## Data
 Used many data sources to support our work: 
 - US TigerLine Shapefiles at County, Tract and Block Group level
-- [HERE][https://developer.here.com/documentation/routing/topics/introduction.html] Rest API to create isochrones
-    https://developer.here.com/documentation/routing/topics/introduction.html
+- [HERE REST API](https://developer.here.com/documentation/routing/topics/introduction.html) to create isochrones
 - Google API to geocode cities to coordinate centroids
 - World Pop Population Raster Data
