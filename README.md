@@ -4,7 +4,7 @@ Creating a generalizeable standardized definition of city delinations using urba
 - Studied US Metros using CBSA Metro definitions to help understand our isochrones
 - Hope to create a global metric using Population Raster data
 
-## Usage
+## Data Sources and Python Libraries
 Used many data sources to support our work, that you will need if using different parts of the project. 
 - [HERE REST API](https://developer.here.com/documentation/routing/topics/introduction.html) to create isochrones. You will need to create a Here API code and key available on the HERE website.
 - The following Python Libraries will be needed: [Shapely](https://pypi.org/project/Shapely/), [GeoPandas](http://geopandas.org/install.html), [Folium](https://pypi.org/project/folium/), [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html), [Numpy](https://www.scipy.org/install.html), [MatPotLib](https://matplotlib.org) 
@@ -21,9 +21,9 @@ Used many data sources to support our work, that you will need if using differen
 
 Each function is demonstrated and used in a notebook page linked [here](https://github.com/mansueto-institute/urban-isolines/blob/master/City%20Dileniations.ipynb). 
 
-## Usage
+## Functions
 
-- get_isodata returns isoline information from HERE API
+- 
 - 
 
 
