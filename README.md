@@ -24,7 +24,7 @@ Each function is demonstrated and used in a notebook page linked [here](https://
 ## Function List
 
 #### Querying Functions
-- '''get-isodata''' : Wrapper function for Here API. Requires location coordinates, and has other optional parameters. (Store api key and code as here_api_key and here_api_code in a file called config.py)
+- `get-isodata` : Wrapper function for Here API. Requires location coordinates, and has other optional parameters. (Store api key and code as here_api_key and here_api_code in a file called config.py)
 - get-google-coords: Wrapper function for Google Geocoder API. (Store Google API key in config.py file as google_api_key
 
 #### Mapping Functions
