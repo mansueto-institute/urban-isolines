@@ -13,7 +13,7 @@ Used many data sources to support our work, that you will need if using differen
     - To generate population data using the isolines you will need [County](https://www2.census.gov/geo/tiger/TIGER2018/COUNTY/) and [Block Group](https://www2.census.gov/geo/tiger/TIGER2018/BG/) shapefiles. (There are many blockgroup folders, downloads ones for the states that you need. 
     - [Urban Areas](https://www2.census.gov/geo/tiger/TIGER2018/UAC/) will allow us to match our isolines to cbsa defined urban areas
 - For population data you will need to install the [Census](https://pypi.org/project/census/) python library and get a Census API Key. Instructions for getting a key are on the Census link. 
-- [Google API](https://developers.google.com/maps/documentation/geocoding/start) to get centroid coordinates from city names. You will need an API Key available at the location. 
+- [Google API](https://developers.google.com/maps/documentation/geocoding/start) to get centroid coordinates from city names. You will need an API Key available at the link. 
 - [World Pop Population Raster Data](https://www.worldpop.org/project/categories?id=3) to get global population raster data
 
 
@@ -21,9 +21,28 @@ Used many data sources to support our work, that you will need if using differen
 
 Each function is demonstrated and used in a notebook page linked [here](https://github.com/mansueto-institute/urban-isolines/blob/master/City%20Dileniations.ipynb). 
 
-## Functions
+## Function List
 
-- 
-- 
+#### Querying Functions
+- get-isodata: Wrapper function for Here API. Requires location coordinates, and has other optional parameters. (Store api key and code as here_api_key and here_api_code in a file called config.py)
+- get-google-coords: Wrapper function for Google Geocoder API. (Store Google API key in config.py file as google_api_key
 
+#### Mapping Functions
+- isoplot: Plots a geoseries and/or a city shapefile onto a folium map with the coordinates given to the function. 
+- geoseries_area: Calculates the area of a polygon in square kilometers. 
+
+#### Data Processing Functions
+- isoline_contains: Returns a csv containing data about the fitness of isolines from the coordinates given matching city boundaries of a shapefile given. 
+- isoline_pops: Returns a csv containing data about the population statistics of isolines centering at the coordinates given as well as area data about the isoline as related to a city shapefile provided. 
+- isoline_raster_pops: Returns a csv containing data about the population statistics of isolines using population raster data
+
+## Future 
+
+
+## Authors/Contact
+
+- Kahaan Shah - Twitter: @kahaantrueblue - kahaan at uchicago dot edu
+- Nicholas Marchio
+
+## License
 
