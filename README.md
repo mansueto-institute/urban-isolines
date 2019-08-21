@@ -25,16 +25,16 @@ Each function is demonstrated and used in a notebook page linked [here](https://
 
 #### Querying Functions
 - `get-isodata` : Wrapper function for Here API. Requires location coordinates, and has other optional parameters. (Store api key and code as here_api_key and here_api_code in a file called config.py)
-- get-google-coords: Wrapper function for Google Geocoder API. (Store Google API key in config.py file as google_api_key
+- `get-google-coords`: Wrapper function for Google Geocoder API. (Store Google API key in config.py file as google_api_key
 
 #### Mapping Functions
-- isoplot: Plots a geoseries and/or a city shapefile onto a folium map with the coordinates given to the function. 
-- geoseries_area: Calculates the area of a polygon in square kilometers. 
+- `isoplot`: Plots a geoseries and/or a city shapefile onto a folium map with the coordinates given to the function. 
+- `geoseries_area`: Calculates the area of a polygon in square kilometers. 
 
 #### Data Processing Functions
-- isoline_contains: Returns a csv containing data about the fitness of isolines from the coordinates given matching city boundaries of a shapefile given. 
-- isoline_pops: Returns a csv containing data about the population statistics of isolines centering at the coordinates given as well as area data about the isoline as related to a city shapefile provided. 
-- isoline_raster_pops: Returns a csv containing data about the population statistics of isolines using population raster data
+- `isoline_contains`: Returns a csv containing data about the fitness of isolines from the coordinates given matching city boundaries of a shapefile given. 
+- `isoline_pops`: Returns a csv containing data about the population statistics of isolines centering at the coordinates given as well as area data about the isoline as related to a city shapefile provided. 
+- `isoline_raster_pops`: Returns a csv containing data about the population statistics of isolines using population raster data
 
 ## Future 
 
