@@ -19,9 +19,11 @@ Used many data sources to support our work, that you will need if using differen
 
 ## Demonstration
 
-Each function is demonstrated and used in a notebook page linked [here](https://github.com/mansueto-institute/urban-isolines/blob/master/City%20Dileniations.ipynb). The demonstration is used to study the top 30 cities in the US by size, and then later uses Raster Data to study the top 5 cities in Spain. Some of the useful functions are uploaded in the functions folder, and can be used in a more general way. 
+Each function is demonstrated and used in a notebook page linked [here](https://github.com/mansueto-institute/urban-isolines/blob/master/City%20Dileniations.ipynb). The demonstration is used to study the top 30 cities in the US by size, and then later uses Raster Data to study the top 5 cities in Spain. Some of the useful functions are updated and uploaded in the functions folder such that they can be used in a more general way. 
 
 ## Function List
+
+Can be found in the functions folder. 
 
 #### Querying Functions
 - `get-isodata` : Wrapper function for Here API. Requires location coordinates, and has other optional parameters. (Store api key and code as here_api_key and here_api_code in a file called config.py)
