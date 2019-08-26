@@ -38,7 +38,7 @@ Can be found in the functions folder.
 - `isoline_pops`: Returns a csv containing data about the population statistics of isolines centering at the coordinates given as well as area data about the isoline as related to a city shapefile provided. 
 - `isoline_raster_pops`: Returns a csv containing data about the population statistics of isolines using population raster data
 
-## Future 
+## Learnings and Future 
 
 [Presentation](https://docs.google.com/presentation/d/1B1CAW1vU8_PIuuITTDEFKXsauqRcdeniZEfLgxdBOow/edit#slide=id.g5f77c7d6fb_0_405) on learnings and future work
 
