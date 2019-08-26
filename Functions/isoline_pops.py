@@ -8,6 +8,7 @@ bg_name = 'BG/tl_2018_{}_bg/tl_2018_{}_bg.shp'
 pop_code = 'B01003_001E'
 c = Census(config.census_api_key)
 
+
 def isoline_pops(center, city_shape):
     """
     Paraneters:
@@ -25,15 +26,8 @@ def isoline_pops(center, city_shape):
     zero_count = 0
     overlap = 10000
     time = 600
-    times = []
-    marginal_pops = []
-    containments = []
-    cumu_pops = []
+    times, marginal_pops, containments, cumu_pops, cumu_area, IOU_list, areas, geometries = [], [], [], [], [], [], []. []
     cumu_area = overlap/city_area 
-    cumu_areas = []
-    IOU_list = []
-    areas = []
-    geometries = []
     merged = gpd.GeoDataFrame()
     states = []
     state_data = []
