@@ -19,7 +19,7 @@ Used many data sources to support our work that you will need for parts of the p
 
 ## Demonstration
 
-Each function is demonstrated and used in a notebook page linked [here](https://github.com/mansueto-institute/urban-isolines/blob/master/City%20Dileniations.ipynb). The demonstration is used to study the top 30 cities in the US by size, and then later uses Raster Data to study the top 5 cities in Spain. Some of the useful functions are updated and uploaded in the functions folder such that they can be used in a more general way. 
+Each function is demonstrated and used in a notebook page linked [here](https://nbviewer.jupyter.org/github/mansueto-institute/urban-isolines/blob/master/City%20Dileniations.ipynb). The demonstration is used to study the top 30 cities in the US by size, and then later uses Raster Data to study the top 5 cities in Spain. Some of the useful functions are updated and uploaded in the functions folder such that they can be used in a more general way. 
 
 ## Function List
 
